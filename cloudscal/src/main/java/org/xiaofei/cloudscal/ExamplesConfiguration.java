@@ -19,7 +19,7 @@ public class ExamplesConfiguration {
 
 	public static final String NOVA_ENDPOINT = "http://10.10.19.254:8774/v2";
 	
-	public static final String CEILOMETER_ENDPOINT = "";
+	public static final String CEILOMETER_ENDPOINT = "http://10.10.19.254:8777/v2";
 	
 	public static void main(String[] args) {
 		Keystone client = new Keystone(KEYSTONE_ENDPOINT);

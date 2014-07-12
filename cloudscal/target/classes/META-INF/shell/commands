@@ -1,0 +1,61 @@
+##---------------------------------------------------------------------------
+##  Licensed to the Apache Software Foundation (ASF) under one or more
+##  contributor license agreements.  See the NOTICE file distributed with
+##  this work for additional information regarding copyright ownership.
+##  The ASF licenses this file to You under the Apache License, Version 2.0
+##  (the "License"); you may not use this file except in compliance with
+##  the License.  You may obtain a copy of the License at
+##
+##     http://www.apache.org/licenses/LICENSE-2.0
+##
+##  Unless required by applicable law or agreed to in writing, software
+##  distributed under the License is distributed on an "AS IS" BASIS,
+##  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+##  See the License for the specific language governing permissions and
+##  limitations under the License.
+##---------------------------------------------------------------------------
+org.xiaofei.cloudscal.shell.commands.Exit
+#org.xiaofei.cloudscal.shell.commands.Version
+org.xiaofei.cloudscal.shell.commands.Bye
+org.xiaofei.cloudscal.shell.commands.Quit
+#org.xiaofei.cloudscal.shell.commands.ListInstances
+#org.xiaofei.cloudscal.shell.commands.Connect
+#org.xiaofei.cloudscal.shell.commands.Disconnect
+##org.xiaofei.cloudscal.shell.commands.Install
+#org.xiaofei.cloudscal.shell.commands.InstallService
+##org.xiaofei.cloudscal.shell.commands.AddInstance
+# removed. Code is in Archive folder. May be restored in separate package.
+##org.xiaofei.cloudscal.shell.commands.AddBareMetalInstance
+#org.xiaofei.cloudscal.shell.commands.Help
+#org.xiaofei.cloudscal.shell.commands.Validate
+##org.xiaofei.cloudscal.shell.commands.Pack
+##org.xiaofei.cloudscal.shell.commands.Start
+#org.xiaofei.cloudscal.shell.commands.UninstallService
+##org.xiaofei.cloudscal.shell.commands.RemoveInstance
+#org.xiaofei.cloudscal.shell.commands.UseApplication
+#org.xiaofei.cloudscal.shell.commands.Invoke
+#org.xiaofei.cloudscal.shell.commands.InstallApplication
+#org.xiaofei.cloudscal.shell.commands.UninstallApplication
+#org.xiaofei.cloudscal.shell.commands.TestRecipe
+#org.xiaofei.cloudscal.shell.commands.BootstrapLocalCloud
+#org.xiaofei.cloudscal.shell.commands.TeardownLocalCloud
+#org.xiaofei.cloudscal.shell.commands.ClearScreen
+#org.xiaofei.cloudscal.shell.commands.StartAgent
+#org.xiaofei.cloudscal.shell.commands.StartManagement
+#org.xiaofei.cloudscal.shell.commands.ShutdownAgent
+#org.xiaofei.cloudscal.shell.commands.ShutdownManagement
+#org.xiaofei.cloudscal.shell.commands.SetInstances
+#org.xiaofei.cloudscal.shell.commands.ListServices
+#org.xiaofei.cloudscal.shell.commands.ListApplications
+#org.xiaofei.cloudscal.shell.commands.Tail
+#org.xiaofei.cloudscal.shell.commands.SetAttributes
+#org.xiaofei.cloudscal.shell.commands.ListAttributes
+#org.xiaofei.cloudscal.shell.commands.RemoveAttributes
+#org.xiaofei.cloudscal.shell.commands.ValidateApplication
+#org.xiaofei.cloudscal.shell.commands.ValidateService
+#org.xiaofei.cloudscal.shell.commands.Login
+#org.xiaofei.cloudscal.shell.commands.AddTemplates
+#org.xiaofei.cloudscal.shell.commands.GetTemplate
+#org.xiaofei.cloudscal.shell.commands.ListTemplates
+#org.xiaofei.cloudscal.shell.commands.RemoveTemplate
+#org.xiaofei.cloudscal.shell.commands.ShutdownManagers
