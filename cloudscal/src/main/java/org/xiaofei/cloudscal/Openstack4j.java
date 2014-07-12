@@ -66,7 +66,7 @@ public class Openstack4j {
 		
 		
 		MeterService meterService=os.telemetry().meters();
-		List<? extends Sample> s= meterService.samples("cpu_util");
+		/*List<? extends Sample> s= meterService.samples("cpu_util","limit","2");
 		System.out.println(s.size());
 		float mean=0;
 		for (Sample sample : s) {
@@ -76,9 +76,18 @@ public class Openstack4j {
 		System.out.println(mean/s.size());
 		System.out.println("Name: "+s.get(0).getCounterName());
 		System.out.println("Count: "+s.get(0).getCounterVolume()+s.get(0).getCounterUnit());
-		Sample s1=s.get(0);
-		Date date =s1.getTimestamp();
-		System.out.println(date.toGMTString());
+		Sample s1=s.get(0);*/
+		//Date date =s1.getTimestamp();
+		//System.out.println(date.toGMTString());
+		
+		
+		//meterService list
+		
+		List<? extends Meter> s = os.telemetry().meters().list();
+		System.out.println(s.size());
+		for (Meter meter : s) {
+			System.out.println(meter.toString());
+		}
 		
 		
 		
